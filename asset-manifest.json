@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/funnel_syndicate2.0/static/css/main.be61c40a.css",
+    "main.js": "/funnel_syndicate2.0/static/js/main.cf6c5c54.js",
+    "static/media/pb_pic_rot.jpg": "/funnel_syndicate2.0/static/media/pb_pic_rot.9450fa40d720ced50a10.jpg",
+    "static/media/1 main.jpg": "/funnel_syndicate2.0/static/media/1 main.855e06a87cea1ff1ba62.jpg",
+    "static/media/2 main.jpg": "/funnel_syndicate2.0/static/media/2 main.45a71a82dc415dc4582c.jpg",
+    "static/media/icon_3-removebg-preview.png": "/funnel_syndicate2.0/static/media/icon_3-removebg-preview.e5ca088c8ff5d7bff058.png",
+    "static/media/icon_1-removebg-preview.png": "/funnel_syndicate2.0/static/media/icon_1-removebg-preview.f1bec0ab43cf09b32af7.png",
+    "static/media/3 main.jpg": "/funnel_syndicate2.0/static/media/3 main.79232735c71880e30fc4.jpg",
+    "static/media/5.jpg": "/funnel_syndicate2.0/static/media/5.c294fb292be3b2fd9ab7.jpg",
+    "static/media/vd_pic_crop.jpg": "/funnel_syndicate2.0/static/media/vd_pic_crop.f231be775581a9b99297.jpg",
+    "static/media/02b00525-a3b6-49cd-9e55-40703f8017ea.png": "/funnel_syndicate2.0/static/media/02b00525-a3b6-49cd-9e55-40703f8017ea.d27202d0185f2d915479.png",
+    "static/media/icon_2-removebg-preview.png": "/funnel_syndicate2.0/static/media/icon_2-removebg-preview.9b63c10e992180d3d01c.png",
+    "static/media/Logo.png": "/funnel_syndicate2.0/static/media/Logo.bd54b370ef7629826322.png",
+    "static/media/twitter logo without bg.svg": "/funnel_syndicate2.0/static/media/twitter logo without bg.02e820e4c923a2c19fdac93e082eb692.svg",
+    "index.html": "/funnel_syndicate2.0/index.html",
+    "main.be61c40a.css.map": "/funnel_syndicate2.0/static/css/main.be61c40a.css.map",
+    "main.cf6c5c54.js.map": "/funnel_syndicate2.0/static/js/main.cf6c5c54.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be61c40a.css",
+    "static/js/main.cf6c5c54.js"
+  ]
+}
