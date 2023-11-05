@@ -1,0 +1,142 @@
+.testimonials-header {
+    padding: 13px;
+    font-size: 38px;
+    font-family: 'montserrat';
+    line-height: 42px;
+    text-align: center;
+    max-width: 80%;
+    margin: 30px auto 50px;
+}
+
+.testimonials {
+    
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.scroll-container-testimonial {
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    -webkit-mask: linear-gradient(90deg, #0000, #000 3% 97%, #0000);
+    width: 80%;
+    top: 0px;
+}
+
+.scroll-content {
+    display: flex;
+    transition: transform 0.5s ease;
+    /* Smooth transition */
+}
+
+.scroll-item {
+    flex: 0 0 auto;
+    margin-right: 20px;
+    /* Adjust the spacing between images */
+    height: 300px;
+    /* Adjust the image height as needed */
+}
+
+.scroll-item img {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: gray;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width:1024px) {
+    .testimonials-header {
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .scroll-item
+    {
+        height: 200px;
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+    .testimonials-header {
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .scroll-item
+    {
+        height: 200px;
+    }
+    .scroll-container-testimonial
+    {
+        width: 100%;
+    }    
+    .dot
+    {
+        width: 9px;
+        height: 9px;
+    
+    }
+}
+
+@media screen and (max-width:430px) {
+    .testimonials-header {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .scroll-item
+    {
+        height: 150px;
+    }
+    .scroll-container-testimonial
+    {
+        width: 100%;
+    }   
+    .dot
+    {
+        width: 8px;
+        height: 8px;
+    
+    } 
+}
+
+@media screen and (max-width:320px){
+    .testimonials-header {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .scroll-item
+    {
+        height: 100px;
+    }
+    .scroll-container-testimonial
+    {
+        width: 100%;
+    }   
+    .dot
+    {
+        width: 7px;
+        height: 7px;
+    
+    } 
+}

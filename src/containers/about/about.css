@@ -1,0 +1,238 @@
+/* Global Styles */
+.timeline-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.timeline-header {
+    font-size: 38px;
+    line-height: 42px;
+    font-family: 'montserrat', sans-serif;
+    text-align: center;
+    margin: 5rem 0rem;
+}
+
+.timeline-content-box {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.timeline-left, .timeline-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bt1 img, .bt2 img, .bt3 img, .bt4 img {
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+.bt5, .bt6, .bt7, .bt8 {
+    width: 600px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Individual Button Styles */
+.bt1 img {
+    transform: rotate(-10deg);
+}
+
+.bt2 img {
+    width: 400px;
+}
+
+.bt5, .bt6, .bt7, .bt8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 75px;
+}
+
+/* Text Styles */
+.timeline-content-box h1 {
+    font-family: 'montserrat';
+    font-weight: 600;
+    font-size: 28px;
+    text-align: center;
+    line-height: 32px;
+    color: #FFFFFF;
+    padding: 0 20px;
+}
+
+.timeline-content-box p {
+    font-family: 'montserrat';
+    font-weight: 300;
+    width: 100%;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding: 0;
+    text-align: center;
+}
+
+/* Additional Styles for timeline content box */
+.timeline-content-box {
+    font-family: 'montserrat';
+    text-align: center;
+}
+
+@media screen and (max-width: 2560px) and (min-width: 1500px) {
+    .timeline-header {
+        font-size: 60px;
+        line-height: 57px;
+    }
+    .timeline-content-box h1 {
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .timeline-content-box p {
+        font-size: 30px;
+        line-height: 38px;
+    }
+    .bt1 img, .bt2 img, .bt3 img, .bt4 img {
+        width: 450px;
+        height: 450px;
+    }
+    
+    .bt5, .bt6, .bt7, .bt8 {
+        width: 750px;
+        height: 450px;
+        padding: 0px;
+    }
+    .bt2 img {
+        width: 700px;
+    }
+    .bt4 img
+    {
+        width: 500px;
+    }
+  }
+  
+  @media screen and (max-width: 1050px) {
+    .timeline-header {
+        font-size: 32px;
+        line-height: 36px;
+    }
+    .timeline-content-box h1 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .timeline-content-box p {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .timeline-right
+    {
+        gap:10px;
+    }
+    .bt1 img, .bt2 img, .bt3 img, .bt4 img {
+        width: 200px;
+        height: 200px;
+    }
+    
+    .bt5, .bt6, .bt7, .bt8 {
+        width: 300px;
+        height: 200px;
+        padding: 25px;
+    }
+    .bt2 img {
+        width: 300px;
+    }
+  }
+  
+  @media screen and (max-width: 650px) {
+    .timeline-header {
+        font-size: 30px;
+        line-height: 28px;
+        margin: 1rem;
+    }
+    .timeline-content-box
+    {
+        gap: 2px;
+    }
+    .timeline-content-box h1 {
+        font-size: 14px;
+        line-height: 16px;
+        padding:0;
+    }
+    .timeline-content-box p {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .bt1 img, .bt2 img, .bt4 img {
+        width: 150px;
+        height: 150px;
+        padding: 10px 0px;
+    }
+    .bt3 img, .bt4 img
+    {
+        width: 130px;
+        height: 130px;
+    }
+    
+    .bt5, .bt6, .bt7, .bt8 {
+        width: 200px;
+        height: 150px;
+        padding: 10px;
+        gap: 0.5rem;
+    }
+    .bt2 img {
+        width: 150px;
+    }
+  }
+  
+  @media screen and (max-width: 490px) {
+    .timeline-header {
+        font-size: 20px;
+        line-height: 22px;
+        margin: 1rem;
+    }
+    .timeline-content-box
+    {
+        gap: 2px;
+    }
+    .timeline-content-box h1 {
+        font-size: 9px;
+        line-height: 12px;
+        padding:0;
+    }
+    .timeline-content-box p {
+        font-size: 8px;
+        line-height: 9px;
+    }
+    .bt1 img, .bt2 img, .bt4 img {
+        width: 100px;
+        height: 100px;
+        padding: 5px 0px;
+    }
+    .bt3 img, .bt4 img
+    {
+        width: 80px;
+        height: 80px;
+    }
+    .bt1 img
+    {
+        height: 110px;
+    }
+    
+    .bt5, .bt6, .bt7, .bt8 {
+        width: 150px;
+        height: 100px;
+        padding: 5px;
+        gap: 0.5rem;
+    }
+    .bt2 img {
+        width: 150px;
+    }
+  }
