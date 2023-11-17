@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/funnel_syndicate2.0/static/css/main.f868fd2a.css",
-    "main.js": "/funnel_syndicate2.0/static/js/main.d39eaa9a.js",
+    "main.js": "/funnel_syndicate2.0/static/js/main.a4e39aa1.js",
     "static/media/pb_pic_rot.jpg": "/funnel_syndicate2.0/static/media/pb_pic_rot.9450fa40d720ced50a10.jpg",
     "static/media/1 main.jpg": "/funnel_syndicate2.0/static/media/1 main.855e06a87cea1ff1ba62.jpg",
     "static/media/2 main.jpg": "/funnel_syndicate2.0/static/media/2 main.45a71a82dc415dc4582c.jpg",
@@ -16,10 +16,10 @@
     "static/media/twitter logo without bg.svg": "/funnel_syndicate2.0/static/media/twitter logo without bg.02e820e4c923a2c19fdac93e082eb692.svg",
     "index.html": "/funnel_syndicate2.0/index.html",
     "main.f868fd2a.css.map": "/funnel_syndicate2.0/static/css/main.f868fd2a.css.map",
-    "main.d39eaa9a.js.map": "/funnel_syndicate2.0/static/js/main.d39eaa9a.js.map"
+    "main.a4e39aa1.js.map": "/funnel_syndicate2.0/static/js/main.a4e39aa1.js.map"
   },
   "entrypoints": [
     "static/css/main.f868fd2a.css",
-    "static/js/main.d39eaa9a.js"
+    "static/js/main.a4e39aa1.js"
   ]
 }
