@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f868fd2a.css",
-    "main.js": "/static/js/main.b429d75d.js",
+    "main.css": "/static/css/main.dbfa6757.css",
+    "main.js": "/static/js/main.a4ec0232.js",
     "static/media/Sagar_pic.jpg": "/static/media/Sagar_pic.6da32f082b8a3dbff237.jpg",
     "static/media/pb_pic_rot.jpg": "/static/media/pb_pic_rot.9450fa40d720ced50a10.jpg",
     "static/media/1 main.jpg": "/static/media/1 main.855e06a87cea1ff1ba62.jpg",
@@ -15,11 +15,11 @@
     "static/media/Logo.png": "/static/media/Logo.bd54b370ef7629826322.png",
     "static/media/twitter logo without bg.svg": "/static/media/twitter logo without bg.02e820e4c923a2c19fdac93e082eb692.svg",
     "index.html": "/index.html",
-    "main.f868fd2a.css.map": "/static/css/main.f868fd2a.css.map",
-    "main.b429d75d.js.map": "/static/js/main.b429d75d.js.map"
+    "main.dbfa6757.css.map": "/static/css/main.dbfa6757.css.map",
+    "main.a4ec0232.js.map": "/static/js/main.a4ec0232.js.map"
   },
   "entrypoints": [
-    "static/css/main.f868fd2a.css",
-    "static/js/main.b429d75d.js"
+    "static/css/main.dbfa6757.css",
+    "static/js/main.a4ec0232.js"
   ]
 }
